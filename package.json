@@ -1,8 +1,8 @@
 {
-  "name": "roti",
+  "name": "aws-roti",
   "version": "0.0.1",
   "description": "aws lambda api gateway simple framework",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest --coverage --verbose"
   },
