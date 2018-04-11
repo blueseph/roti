@@ -13,10 +13,11 @@ const createExpressionsObject = (model) => {
         ...attributes.ExpressionAttributeValues,
         [`:${key}`]: val,
       },
-    })
-    , {});
-
-  expressions.ExpressionAttributeValues[':updatedAt'] = timestamp;
+    }),
+    {
+      updatedAt: timestamp,
+    },
+  );
 
   return expressions;
 };
