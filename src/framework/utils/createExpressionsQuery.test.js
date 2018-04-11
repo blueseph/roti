@@ -7,6 +7,6 @@ describe('create expressions query', () => {
       '#lastName': 'lastName',
     };
 
-    expect(createExpressionsQuery(body)).toBe('SET #firstName = :firstName,#lastName = :lastName,');
+    expect(createExpressionsQuery(body)).toBe('SET #firstName = :firstName,#lastName = :lastName');
   });
 });
