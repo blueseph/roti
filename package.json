@@ -1,6 +1,6 @@
 {
   "name": "aws-roti",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "aws lambda api gateway simple framework",
   "main": "src/index.js",
   "scripts": {
