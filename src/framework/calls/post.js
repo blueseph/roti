@@ -2,7 +2,7 @@ const uuid = require('uuid');
 
 const post = dynamoDb => table => async (event) => {
   const timestamp = new Date().getTime();
-  const data = JSON.parse(event.body);
+  const data = JSON.parse(event.body || {});
 
   const params = {
     TableName: table.name,
